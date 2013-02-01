@@ -5,7 +5,7 @@
 		Created by José Daniel Paternina Soto
 		josedaniel.paterninasoto@gmail.com
 		
-		
+
 		MIT Licensed
 
 		Copyright (c) 2012-2013 José Daniel Paternina Soto
@@ -143,10 +143,10 @@
             $this->db->delete($table, $condition);	    	
 	    }
             
-        /**
-         * Sql              : Ejecuta una instrucción sql directa a la bd
-         * @sql string      : Instrucción sql
-         */
+        /*
+        * sql              : returns an array of records
+        * @sql[string]     : an SQL string
+        */
         public function sql($sql) {
             $q = $this->db->query($sql);
             return $q->result_array();	

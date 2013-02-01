@@ -38,4 +38,8 @@ Once you load it into your controllers, simple use it as any other model:
 
 MIT licence. Do whatever you want.
 
+## Thanks:
+
+To [Iván Melendez](https://github.com/argordmel) for create the sql, total_remove and total_remove_where methods. Also for his feedback.
+
 
