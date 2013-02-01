@@ -22,8 +22,8 @@ Look inside `cam.php` for more information.
 
 Once you load it into your controllers, simple use it as any other model:
 
-	* To create a record in a table called 'people': `$this->Cam->create('people',array('name'=>'Peter','last'=>'Parker'));` This Will return the id of the inserted record.
-	* To select all records in a table: `$data = $this->Cam->get('people')`. This will return an array.
-	* To select some records using the 'where' clausule: `$data = $this->Cam->get_where('people',array('last'=>'parker'))`;
+* To create a record in a table called 'people': `$this->Cam->create('people',array('name'=>'Peter','last'=>'Parker'));` This Will return the id of the inserted record.
+* To select all records in a table: `$data = $this->Cam->get('people')`. This will return an array.
+* To select some records using the 'where' clausule: `$data = $this->Cam->get_where('people',array('last'=>'parker'))`;
 
 
